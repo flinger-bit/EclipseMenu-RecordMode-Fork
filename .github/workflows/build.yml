@@ -10,16 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
-      - name: Initialize submodules manually
-        run: git submodule update --init --recursive
 
       - name: Build Geode Mod
         uses: geode-sdk/build-geode-mod@main
         with:
+          sdk: latest
+          cli: latest
           build-config: Release
