@@ -15,11 +15,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Geode SDK
-        uses: geode-sdk/setup-geode@main
-        with:
-          version: latest
-
       - name: Build Geode Mod
         uses: geode-sdk/build-geode-mod@main
         with:
