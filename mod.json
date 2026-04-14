@@ -1,0 +1,16 @@
+{
+  "id": "eclipse.recordmode.fork",
+  "name": "EclipseMenu Record Mode Fork",
+  "version": "1.0.0",
+  "developer": "OpenAI",
+  "description": "EclipseMenu fork that adds a dual Record flow for normal recording and frame-stepper-safe recording.",
+  "tags": [
+    "gameplay",
+    "interface",
+    "recording"
+  ],
+  "links": {
+    "source": "https://github.com/EclipseMenu/EclipseMenu"
+  },
+  "settings": {}
+}
